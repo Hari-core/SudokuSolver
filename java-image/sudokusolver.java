@@ -81,7 +81,7 @@ public class sudokusolver {
                 // Recur to solve the rest of the board
                 if (solveSudoku(board)) {
                     return true;
-                }
+              }
 
                 // If placing num doesn't lead to a solution, backtrack
                 board[row][col] = 0;
